@@ -1,7 +1,12 @@
 import React from 'react'
+import Hero from './components/hero/Hero'
 
 function App() {
-  return <h1 className="text-3xl font-bold underline">Hello Tailwind 3.4.17</h1>
+  return (
+    <main className='bg-[#0d182e]'>
+      <Hero />
+    </main>
+  )
 }
 
 export default App

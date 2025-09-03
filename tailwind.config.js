@@ -10,13 +10,18 @@ export default {
    plugins: [],
  }
 
+/*
+TODO
+download icons and images,
+and put them in src/assets:
 
-// /** @type {import('tailwindcss').Config} */
-// export default {
-//   content: [],
-//   theme: {
-//     extend: {},
-//   },
-//   plugins: [],
-// }
+html icon 
+icon
+hi icon
+img icon
+js icon
+image experience
+react icon
 
+
+*/
