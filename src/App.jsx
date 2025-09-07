@@ -5,6 +5,7 @@ import Hero from './components/hero/Hero'
 import Skills from './components/skills/Skills'
 import Experience from './components/experience/Experience'
 import Language from './components/language/Language'
+import Projects from './components/projects/Projects'
 
 function App() {
   useEffect(() => {
@@ -18,6 +19,7 @@ function App() {
       <Skills />
       <Experience />
       <Language />
+      <Projects />
     </main>
   )
 }
