@@ -3,8 +3,8 @@ import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 
-import image from '../../assets/img.png'
-import image2 from '../../assets/img.png'
+import image from '../../assets/mineSweeper.png'
+import image2 from '../../assets/misterbeat.png'
 import image3 from '../../assets/img.png'
 
 export default function Projects() {
@@ -18,21 +18,21 @@ export default function Projects() {
     {
       id: 2,
       image: image2,
-      title: 'Project 2',
-      description: 'Project 2 description bla bla'
+      title: 'MisterBeat',
+      description: 'Spotify Clone - App: React | Redux | Node.js | Express | MongoDB'
     },
-    {
-      id: 3,
-      image: image3,
-      title: 'Project 3',
-      description: 'Project 3 description bla bla'
-    },
-    {
-      id: 4,
-      image: image3,
-      title: 'Project 4',
-      description: 'Project 4 description bla bla'
-    }
+    // {
+    //   id: 3,
+    //   image: image3,
+    //   title: 'Project 3',
+    //   description: 'Project 3 description bla bla'
+    // },
+    // {
+    //   id: 4,
+    //   image: image3,
+    //   title: 'Project 4',
+    //   description: 'Project 4 description bla bla'
+    // }
   ]
 
   const settings = {

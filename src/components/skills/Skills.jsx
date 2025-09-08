@@ -66,7 +66,7 @@ export default function Skills() {
               <img
                 src={redux} // Redux icon
                 alt=""
-                className="rounded-full w-24 h-24 object-cover"
+                className=" w-24 h-24 object-cover"
               />
             </li>
 

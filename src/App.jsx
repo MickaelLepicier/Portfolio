@@ -9,6 +9,9 @@ import Projects from './components/projects/Projects'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 
+// TODOs:
+// things to add - link to linkedin, facebook, and a bit more about my life like triathlons and more
+
 function App() {
   useEffect(() => {
     AOS.init({
