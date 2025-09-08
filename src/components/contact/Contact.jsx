@@ -7,7 +7,7 @@ export default function Contact() {
             <h2 className='mb-4 text-4xl tracking-tight font-extrabold text-center text-white'> Contact Me</h2>
             <form action="#" className='space-y-8'>
                 <div>
-                    <label for='email' className='block mb-2 text-xl font-medium text-white'>Email</label>
+                    <label htmlFor='email' className='block mb-2 text-xl font-medium text-white'>Email</label>
                     <input 
                     type="email" 
                     id='email' 
@@ -17,7 +17,7 @@ export default function Contact() {
                 </div>
 
                 <div className='sm:col-span-2'>
-                    <label for='message' className='block mb-2 text-xl font-medium text-white'>Message</label>
+                    <label htmlFor='message' className='block mb-2 text-xl font-medium text-white'>Message</label>
                     <textarea
                     rows='6'
                     id='message' 

@@ -38,24 +38,19 @@ export default function Projects() {
   const settings = {
     dots: true,
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: 3, // Number of the cards that is shown
     slidesToScroll: 1,
     arrows: true,
     responsive: [
       {
-        breakpoint: 1024, // tablets and below
+        breakpoint: 780,
         settings: {
-          slidesToShow: 2
-        }
-      },
-      {
-        breakpoint: 640, // phones and below
-        settings: {
-          slidesToShow: 1
+          slidesToShow: 1,
         }
       }
     ]
   }
+
 
   return (
     <section
