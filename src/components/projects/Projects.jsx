@@ -18,8 +18,8 @@ export default function Projects() {
     {
       id: 2,
       image: image2,
-      title: 'MisterBeat',
-      description: 'Spotify Clone - App: React | Redux | Node.js | Express | MongoDB'
+      title: 'Spotify Clone - App',
+      description: 'React  | Node.js | MongoDB'
     },
     // {
     //   id: 3,
