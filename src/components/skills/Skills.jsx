@@ -33,20 +33,40 @@ export default function Skills() {
           >
             Skills
           </h1>
+
+         {/* Tagline */}
+           <p 
+            data-aos="fade-right"
+            data-aos-delay="500"
+            className="text-lg font-semibold text-orange-400 mb-6"
+           >
+            “Always learning, always improving, always coding.”
+           </p>
+
           <p
             data-aos="fade-right"
             data-aos-delay="500"
             className="leading-relaxed text-base "
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-            consectetur vero illo nostrum debitis tempora iusto fuga,
-            necessitatibus ullam officiis unde quos at nesciunt autem explicabo!
-            Sapiente atque non voluptatem? Lorem, ipsum dolor sit amet
-            consectetur adipisicing elit. Vel ad sapiente, totam iste, esse illo
-            consequuntur deleniti eum autem accusamus magni aliquam illum,
-            corrupti reiciendis doloribus. Neque unde minima asperiores. REACT |
-            Redux | NodeJS | MongoDB | Mongoose | Express | JavaScript | CSS | Sass
+          I enjoy building complete web applications from idea to deployment. On the <strong>frontend</strong>, I work with{" "}
+          <strong>React, Redux, JavaScript, CSS, Sass, Vite, and Axios</strong> to craft smooth, responsive, and
+          user-friendly experiences. On the <strong>backend</strong>, I use <strong>Node.js, Express, MongoDB, and Mongoose</strong> to
+          create reliable APIs and scalable solutions.
           </p>
+          {/* later on I can add postman, ChatGPT and more tools that I use  */}
+          
+          <br/>
+
+          <p
+            data-aos="fade-right"
+            data-aos-delay="500"
+            className="leading-relaxed text-base "
+          >
+          Beyond the tools, <strong>I bring curiosity, fast learning, and a passion
+          for problem-solving, which helps me adapt quickly and continuously improve my craft.</strong>
+          </p>
+
+
         </div>
         <div
           data-aos="fade-left"
