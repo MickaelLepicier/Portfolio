@@ -4,6 +4,7 @@ export default function Language() {
     const languages = [
         {code:'Hr', name:'Hebrew', level:'Maternal'},
         {code:'En', name:'English', level:'Very Good'},
+        // {code:'Fr', name:'French', level:'Basic'},
     ]
     
   return (

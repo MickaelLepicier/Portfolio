@@ -30,16 +30,16 @@ export default function Projects() {
         'MongoDB',
         'WebSockets',
         'CSS',
-        'Sass'
       ]
-    },
-    {
-      id: 3,
-      image: image3,
-      title: 'Project 3',
-      description: 'Project 3 description bla bla',
-      stack: []
-    }
+    }, 
+    // {
+    //   id: 3,
+    //   image: image3,
+    //   title: 'Project 3',
+    //   description: 'Project 3 description bla bla',
+    //   stack: []
+    // }
+
     // {
     //   id: 4,
     //   image: image3,
@@ -79,8 +79,8 @@ export default function Projects() {
   //   return () => clearTimeout(timer);
   // }, []);
 
-  console.log('window width:', window.innerWidth)
-  console.log('checkWidth():', checkWidth())
+  // console.log('window width:', window.innerWidth)
+  // console.log('checkWidth():', checkWidth())
 
   function checkWidth() {
     const width = window.innerWidth
@@ -112,7 +112,7 @@ export default function Projects() {
                     alt={project.title}
                     className="w-full h-[200px] object-cover object-center"
                   />
-                  <div className="p-6 h-[250px] overflow-y-auto">
+                  <div className="p-6 h-[255px] overflow-y-auto">
                     <h2 className="tracking-widest text-xl title-font font-medium text-gray-400 mb-2">
                       {project.title}
                     </h2>
