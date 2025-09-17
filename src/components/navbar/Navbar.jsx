@@ -1,7 +1,8 @@
-import React, { useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
+  const headerRef = useRef(null)
   const listNavbar = [
     { name: 'Home', link: '#home' },
     { name: 'Skills', link: '#skills' },
@@ -9,8 +10,30 @@ export default function Navbar() {
     { name: 'Language', link: '#language' },
     { name: 'Projects', link: '#projects' }
   ]
+  useEffect(() => {
+    const handleOutsideClick = (event) => {
+      if (!isOpen) return
+      // Only apply on mobile widths
+      if (typeof window !== 'undefined' && window.innerWidth >= 768) return
+      const headerEl = headerRef.current
+      if (headerEl && !headerEl.contains(event.target)) {
+        setIsOpen(false)
+      }
+    }
+    document.addEventListener('mousedown', handleOutsideClick)
+    document.addEventListener('touchstart', handleOutsideClick)
+    return () => {
+      document.removeEventListener('mousedown', handleOutsideClick)
+      document.removeEventListener('touchstart', handleOutsideClick)
+    }
+  }, [isOpen])
+
   return (
-    <header data-aos="fade-up" className="text-gray-600 body-font z-10">
+    <header
+      ref={headerRef}
+      data-aos="fade-up"
+      className="text-gray-600 body-font z-10"
+    >
       <div className="container mx-auto flex flex-wrap p-5 items-center justify-between">
         <a className="flex title-font font-medium items-center text-gray-900">
           <span className="ml-3 text-3xl font-bold text-white ">Portfolio</span>
