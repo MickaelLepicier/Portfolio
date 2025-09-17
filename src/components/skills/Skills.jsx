@@ -34,99 +34,106 @@ export default function Skills() {
             Skills
           </h1>
 
-         {/* Tagline */}
-           <p 
+          {/* Tagline */}
+          <p
             data-aos="fade-right"
             data-aos-delay="500"
             className="text-lg font-semibold text-orange-400 mb-6"
-           >
+          >
             “Always learning, always improving, always coding.”
-           </p>
+          </p>
 
           <p
             data-aos="fade-right"
             data-aos-delay="500"
             className="leading-relaxed text-base "
           >
-          I enjoy building complete web applications from idea to deployment. On the <strong>frontend</strong>, I work with{" "}
-          <strong>React, Redux, JavaScript, CSS, Sass, Vite, and Axios</strong> to craft smooth, responsive, and
-          user-friendly experiences. On the <strong>backend</strong>, I use <strong>Node.js, Express, MongoDB, and Mongoose</strong> to
-          create reliable APIs and scalable solutions.
+            I enjoy building complete web applications from idea to deployment.
+            On the <strong>frontend</strong>, I work with{' '}
+            <strong>
+              React, Redux, JavaScript, CSS, Sass, Vite, and Axios
+            </strong>{' '}
+            to craft smooth, responsive, and user-friendly experiences. On the{' '}
+            <strong>backend</strong>, I use{' '}
+            <strong>Node.js, Express, MongoDB, and Mongoose</strong> to create
+            reliable APIs and scalable solutions.
           </p>
           {/* later on I can add postman, ChatGPT and more tools that I use  */}
-          
-          <br/>
+
+          <br />
 
           <p
             data-aos="fade-right"
             data-aos-delay="500"
             className="leading-relaxed text-base "
           >
-          Beyond the tools, <strong>I bring curiosity, fast learning, and a passion
-          for problem-solving, which helps me adapt quickly and continuously improve my craft.</strong>
+            Beyond the tools,{' '}
+            <strong>
+              I bring curiosity, fast learning, and a passion for
+              problem-solving, which helps me adapt quickly and continuously
+              improve my craft.
+            </strong>
           </p>
-
-
         </div>
         <div
           data-aos="fade-left"
           data-aos-delay="500"
           className="flex flex-col md:w-1/2 md:pl-12"
         >
-          <nav className="flex flex-wrap list-none -mb-1">
-            <li className="lg:w-1/3 mb-4 w-1/2 ">
+          <nav className="flex flex-wrap list-none -mb-1 justify-center">
+            <li className="lg:w-1/3 mb-4 w-1/2 text-center">
               <img
                 src={react} // REACT icon
                 alt=""
-                className="rounded-full w-24 h-24 object-cover"
+                className="rounded-full w-24 h-24 object-cover mx-auto"
               />
             </li>
 
-            <li className="lg:w-1/3 mb-4 w-1/2 ">
+            <li className="lg:w-1/3 mb-4 w-1/2 text-center">
               <img
                 src={redux} // Redux icon
                 alt=""
-                className=" w-24 h-24 object-cover"
+                className="w-24 h-24 object-cover mx-auto"
               />
             </li>
 
-            <li className="lg:w-1/3 mb-4 w-1/2 ">
+            <li className="lg:w-1/3 mb-4 w-1/2 text-center">
               <img
                 src={nodejs} // Node.JS icon
                 alt=""
-                className="rounded-full w-24 h-24 object-cover"
+                className="rounded-full w-24 h-24 object-cover mx-auto"
               />
             </li>
 
-            <li className="lg:w-1/3 mb-4 w-1/2 ">
+            <li className="lg:w-1/3 mb-4 w-1/2 text-center">
               <img
                 src={mongodb} // MongoDB icon
                 alt=""
-                className="rounded-full w-24 h-24 object-cover"
+                className="rounded-full w-24 h-24 object-cover mx-auto"
               />
             </li>
 
-            <li className="lg:w-1/3 mb-4 w-1/2 ">
+            <li className="lg:w-1/3 mb-4 w-1/2 text-center">
               <img
                 src={mongoose} // Mongoose icon
                 alt=""
-                className="rounded-full w-24 h-24 object-cover"
+                className="rounded-full w-24 h-24 object-cover mx-auto"
               />
             </li>
 
-            <li className="lg:w-1/3 mb-4 w-1/2 ">
+            <li className="lg:w-1/3 mb-4 w-1/2 text-center">
               <img
                 src={express} // Express icon
                 alt=""
-                className="rounded-full w-24 h-24 object-cover"
+                className="rounded-full w-24 h-24 object-cover mx-auto"
               />
             </li>
 
-            <li className="lg:w-1/3 mb-4 w-1/2 ">
+            <li className="lg:w-1/3 mb-4 w-1/2 text-center">
               <img
                 src={javascript} // JavaScript icon
                 alt=""
-                className=" w-24 h-24 object-cover"
+                className="w-24 h-24 object-cover mx-auto"
               />
             </li>
 
@@ -138,19 +145,19 @@ export default function Skills() {
               />
             </li> */}
 
-            <li className="lg:w-1/3 mb-4 w-1/2 ">
+            <li className="lg:w-1/3 mb-4 w-1/2 text-center">
               <img
                 src={css} // CSS icon
                 alt=""
-                className=" w-24 h-24 object-cover"
+                className="w-24 h-24 object-cover mx-auto"
               />
             </li>
 
-            <li className="lg:w-1/3 mb-4 w-1/2 ">
+            <li className="lg:w-1/3 mb-4 w-1/2 text-center">
               <img
                 src={sass} // Sass icon
                 alt=""
-                className=" w-24 h-24 object-cover"
+                className="w-24 h-24 object-cover mx-auto"
               />
             </li>
 
