@@ -3,6 +3,10 @@ import Navbar from '../navbar/Navbar'
 import hi from '../../assets/hi.png'
 import CV from './CV.pdf'
 import img from '../../assets/img.png'
+import linkedin from '../../assets/linkedin.png'
+import github from '../../assets/github.png'
+
+
 
 /* maybe this instead:
 I'm passionate about building clean, user-friendly applications and always eager to learn, grow, and tackle complex challenges.
@@ -31,7 +35,6 @@ export default function Hero() {
               data-aos="fade-up"
               data-aos-delay="400"
               className=" top-[350px] left-44 md:top-[30px] md:left-[450px] transform-translate-x-1/2 -translate-y-1/2 w-20 h-20 "
-              //   className="absolute top-[350px] left-44 md:top-[30px] md:left-[450px] transform-translate-x-1/2 -translate-y-1/2 w-20 h-20 "
             />
 
             <h1 className="title-font sm:text-4xl text-4xl mb-4 font-bold text-white">
@@ -46,6 +49,18 @@ export default function Hero() {
             </p>
 
             <div className="flex justify-center">
+
+              <a href="https://www.linkedin.com/in/mickael-lepicier/" target="_blank" rel="noopener noreferrer">
+                <button className="inline-flex py-1 px-4 text-lg">
+                  <img src={linkedin} alt="LinkedIn" className="w-8 h-8 text-lg focus:outline-none hover:shadow-[0_0_40px_rgb(255,165,0,0.7)] rounded-lg" /> 
+                </button>
+              </a>
+
+              <a href="https://github.com/MickaelLepicier" target="_blank" rel="noopener noreferrer">
+                <button className="inline-flex py-1 px-4 text-lg">
+                  <img src={github} alt="GitHub" className="w-8 h-8 text-lg focus:outline-none hover:shadow-[0_0_40px_rgb(255,165,0,0.7)] rounded-lg" /> 
+                </button>
+              </a>
               <a href={CV} download>
                 <button className="inline-flex text-white bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 hover:shadow-[0_0_40px_rgb(255,165,0,0.7)] rounded-full text-lg">
                   Download CV
