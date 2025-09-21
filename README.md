@@ -26,5 +26,5 @@ I'm most proud of.
 Check out the live project here: [Portfolio Website](https://mickaellepicier.github.io/Portfolio/)
 
 
-Created by **Mickael Lepicier**\
+Created by **Mickael Lepicier**
 
