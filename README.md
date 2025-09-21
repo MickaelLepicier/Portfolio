@@ -1,12 +1,30 @@
-# React + Vite
+# 🌐 Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 About
 
-Currently, two official plugins are available:
+This is my personal portfolio website where I showcase my projects,
+skills, and experience as a **Full-Stack Developer**.\
+It's built to highlight my journey, technical expertise, and the work
+I'm most proud of.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+-   🎨 Modern and responsive design (mobile & desktop friendly)\
+-   🧑‍💻 Projects section with live demos & GitHub links\
+-   ⚡ Smooth animations with AOS and React-Slick\
+-   📬 Contact form with EmailJS integration\
+-   🌍 Hosted with GitHub Pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+-   **Frontend:** React.js, Vite, Tailwind CSS\
+-   **Libraries & Tools:** AOS (animations), React Slick (carousel),
+    EmailJS (contact form)\
+-   **Deployment:** GitHub Pages
+
+## 🌟 Live demo:
+Check out the live project here: [Portfolio Website](https://mickaellepicier.github.io/Portfolio/)
+
+
+Created by **Mickael Lepicier**\
+
