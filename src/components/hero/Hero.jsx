@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../navbar/Navbar'
 import hi from '../../assets/hi.png'
-import CV from './CV.pdf'
+import CV from './Mickael_CV.pdf'
 import img from '../../assets/img.png'
 import linkedin from '../../assets/linkedin.png'
 import github from '../../assets/github.png'
@@ -11,6 +11,25 @@ import github from '../../assets/github.png'
 /* maybe this instead:
 I'm passionate about building clean, user-friendly applications and always eager to learn, grow, and tackle complex challenges.
 As a team player, I thrive in collaborative environments where I can contribute, share knowledge, and keep improving my skills.
+
+Fullstack Developer with hands-on experience in React, Node.js, and MongoDB. I love building scalable, user-friendly applications and tackling complex challenges with clean, efficient solutions.
+
+I thrive on learning and growing as a developer — from creating intuitive UIs with React to building robust backends with Node.js. My focus is on delivering impactful, scalable solutions while constantly improving my craft.
+
+As a fullstack developer, I combine technical skills with a people-first mindset. I enjoy collaborating, solving problems, and building web apps that provide seamless user experiences.
+
+I believe... 
+
+My mission is...
+
+Results-driven Fullstack Developer with 2+ years of hands-on experience building scalable web applications. Expert in MERN stack development with demonstrated ability to build end-to-end applications, e.g., Crypto Wallet Service and ……..
+Experienced in working with international teams and diverse stakeholders, leveraging multilingual communication skills.  Proven ability to identify system inefficiencies and implement technical solutions that improve operational performance (note: just play with the ideas putting forward what you want to emphasize for the role in hand). 
+Entrepreneurial mindset developed through 5+ years of independent consulting, combining technical skills with client relationship management.
+TECHNICAL SKILLS
+Frontend: React, Redux, JavaScript, HTML5, CSS3, SASS, Bootstrap
+Backend: Node.js, Express.js, RESTful APIs
+Database: MongoDB, Mongoose
+Tools: Git, GitHub, npm, Webpack.
 */
 
 export default function Hero() {
@@ -46,7 +65,13 @@ export default function Hero() {
             <p className="mb-8 leading-relaxed">
               I'm passionate about building clean, user-friendly applications
               and always eager to learn, grow, and tackle complex challenges.
+              < br/>
+              < br/>
+               <a href="tel:+972547735944" className="text-white font-bold hover:text-orange-400 p-4">
+                   📞 +972 54 7735944
+               </a>
             </p>
+           
 
             <div className="flex justify-center">
 
@@ -61,12 +86,17 @@ export default function Hero() {
                   <img src={github} alt="GitHub" className="w-8 h-8 text-lg focus:outline-none hover:shadow-[0_0_40px_rgb(255,165,0,0.7)] rounded-lg" /> 
                 </button>
               </a>
+
+               
+
               <a href={CV} download>
                 <button className="inline-flex text-white bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 hover:shadow-[0_0_40px_rgb(255,165,0,0.7)] rounded-full text-lg">
                   Download CV
                 </button>
               </a>
+              
             </div>
+            
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <img

@@ -183,7 +183,8 @@ export default function Projects() {
                         </svg>
                         GitHub
                       </button>
-                      <button
+                    
+                      {/* <button
                         type="button"
                         className="flex items-center gap-2 px-3 py-2 border border-cyan-300 text-cyan-200 rounded-md hover:bg-cyan-500 hover:text-[#0d182e] hover:border-cyan-500 transition-colors"
                         onClick={(e) => {
@@ -198,7 +199,7 @@ export default function Projects() {
                         }}
                         aria-label="Open project"
                       >
-                        {/* External link icon */}
+                        {/* External link icon }
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -214,7 +215,8 @@ export default function Projects() {
                           />
                         </svg>
                         Open
-                      </button>
+                      </button> */}
+                      
                     </div>
                   </div>
                   <div className="p-6 h-[255px] overflow-y-auto">

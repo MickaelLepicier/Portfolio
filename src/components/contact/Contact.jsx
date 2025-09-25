@@ -3,7 +3,7 @@ import emailjs from "emailjs-com";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
-    full_name: "",
+    email: "",
     message: ""
   });
 
@@ -22,7 +22,7 @@ export default function Contact() {
         "service_26chl5l", // from EmailJS
         "template_iiqguvy", // from EmailJS
         {
-            full_name: formData.full_name,
+            email: formData.email,
           message: formData.message
         },
         "eRavAlWsMDge8g99j" // from EmailJS
@@ -32,7 +32,7 @@ export default function Contact() {
           setPopup({ show: true, success: true });
         
           setFormData({
-            full_name: "",
+            email: "",
             message: ""
           });
         },
@@ -54,15 +54,15 @@ export default function Contact() {
               htmlFor="email"
               className="block mb-2 text-xl font-medium text-white"
             >
-              Full Name
+              Email
             </label>
             <input
-              type="text"
-              id="full_name"
-              value={formData.full_name}
+              type="email" 
+              id='email'
+              value={formData.email}
               onChange={handleChange}
               className="shadow-sm bg-gray-300 font-bold border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
-              placeholder="Enter your name"
+              placeholder="Enter your email"
               required
             />
           </div>
@@ -79,7 +79,7 @@ export default function Contact() {
               value={formData.message}
               onChange={handleChange}
               className="shadow-sm bg-gray-300 font-bold border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
-              placeholder="Leave a comment..."
+              placeholder="Leave a message..."
               required
             />
           </div>

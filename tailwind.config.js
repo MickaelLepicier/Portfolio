@@ -9,19 +9,3 @@ export default {
    },
    plugins: [],
  }
-
-/*
-TODO
-download icons and images,
-and put them in src/assets:
-
-html icon 
-icon
-hi icon
-img icon
-js icon
-image experience
-react icon
-
-
-*/
