@@ -30,6 +30,19 @@ Frontend: React, Redux, JavaScript, HTML5, CSS3, SASS, Bootstrap
 Backend: Node.js, Express.js, RESTful APIs
 Database: MongoDB, Mongoose
 Tools: Git, GitHub, npm, Webpack.
+
+
+I'm passionate about building clean, user-friendly applications
+and always eager to learn, grow, and tackle complex challenges.
+
+
+ Results-driven Fullstack Developer with 1+ years of experience building scalable web applications using the MERN stack.
+ Skilled in developing end-to-end solutions, such as a Crypto Wallet Service and a Spotify-inspired music app.
+ Experienced in collaborating with international teams and diverse stakeholders, bringing strong problem-solving and multilingual communication skills.
+ With an entrepreneurial mindset and a background in consulting, I combine technical expertise with client-focused delivery.
+              
+
+ maybe add About Me comp and put it at the end
 */
 
 export default function Hero() {
@@ -64,7 +77,13 @@ export default function Hero() {
             </h3>
             <p className="mb-8 leading-relaxed">
               I'm passionate about building clean, user-friendly applications
+              < br/>
               and always eager to learn, grow, and tackle complex challenges.
+              < br/>
+              As a team player, I thrive in collaborative environments where I can
+              < br/>
+              contribute, share knowledge, and keep improving my skills.
+
               < br/>
               < br/>
                <a href="tel:+972547735944" className="text-white font-bold hover:text-orange-400 p-4">
