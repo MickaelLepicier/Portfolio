@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../navbar/Navbar'
 import hi from '../../assets/hi.png'
 import CV from './Mickael_CV.pdf'
-import img from '../../assets/img.png'
+import img from '../../assets/hero.png'
 import linkedin from '../../assets/linkedin.png'
 import github from '../../assets/github.png'
 

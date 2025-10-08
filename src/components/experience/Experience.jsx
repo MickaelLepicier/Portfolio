@@ -1,5 +1,5 @@
 import React from 'react'
-import img_experience from '../../assets/img_experience.png'
+import img_experience from '../../assets/experience.png'
 
 export default function Experience() {
   return (
