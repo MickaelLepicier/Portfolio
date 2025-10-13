@@ -9,6 +9,7 @@ import javascript from '../../assets/javascript.png'
 import typescript from '../../assets/typescript.png'
 import css from '../../assets/css.png'
 import sass from '../../assets/sass.png'
+import cursor from '../../assets/cursor.png'
 
 // import redux from '../../assets/react.png'
 
@@ -121,19 +122,27 @@ export default function Skills() {
               />
             </li>
 
-            <li className="lg:w-1/3 mb-4 w-1/2 text-center">
+            {/* <li className="lg:w-1/3 mb-4 w-1/2 text-center">
               <img
                 src={express} // Express icon
                 alt=""
                 className="rounded-full w-24 h-24 object-cover mx-auto"
               />
-            </li>
+            </li> */}
 
             <li className="lg:w-1/3 mb-4 w-1/2 text-center">
               <img
                 src={javascript} // JavaScript icon
                 alt=""
                 className="w-24 h-24 object-cover mx-auto"
+              />
+            </li>
+
+            <li className="lg:w-1/3 mb-4 w-1/2 text-center">
+              <img
+                src={cursor} // Cursor icon
+                alt=""
+                className="h-24 object-cover mx-auto"
               />
             </li>
 
