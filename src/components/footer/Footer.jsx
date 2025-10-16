@@ -5,7 +5,7 @@ export default function Footer() {
         {name: 'Home', link:'#'},
         {name: 'Skills', link:'#skills'},
         {name: 'Experience', link:'#experience'},
-        {name: 'Language', link:'#language'},
+        // {name: 'Language', link:'#language'},
         {name: 'Projects', link:'#projects'},
         
     ]

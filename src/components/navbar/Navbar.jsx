@@ -3,13 +3,15 @@ import React, { useEffect, useRef, useState } from 'react'
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
   const headerRef = useRef(null)
+  
   const listNavbar = [
     { name: 'Home', link: '#home' },
     { name: 'Skills', link: '#skills' },
     { name: 'Experience', link: '#experience' },
-    { name: 'Language', link: '#language' },
+    // { name: 'Language', link: '#language' },
     { name: 'Projects', link: '#projects' }
   ]
+
   useEffect(() => {
     const handleOutsideClick = (event) => {
       if (!isOpen) return
